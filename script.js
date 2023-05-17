@@ -77,6 +77,7 @@ let products = [
 ]
 
 function reload(arr,cont) {
+    cont.innerHTML = ''
     for(let item of arr) {
         let elem = document.createElement('div') 
         let h1 = document.createElement('h1')
